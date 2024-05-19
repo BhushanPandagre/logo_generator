@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo</title>
+    <link rel="stylesheet" href="logostyle.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1 align="center">Online Company Logo Generator</h1>
+        Enter Name:<input type="text" id="txt1">
+        <br>
+        <br>
+        <input type="radio" name="r1" id="rd1">Diamond Theme Logo
+        <input type="radio" name="r1" id="rd2">Golden Theme Logo
+        <input type="radio" name="r1" id="rd3">Silver Theme Logo
+        <input type="radio" name="r1" id="rd4">Platinum Theme Logo
+        <br>
+        <br>
+        Select Color <input type="color" id="myclr">
+        <br>
+        <br>
+        Apply Shadow <input type="checkbox" id="chkshdw">
+        Clear Shadow <input type="checkbox" id="chkshdw1">
+        <br>
+        <br>
+        <div>
+            <label for="fontSizeRange">Font Size: </label>
+            <input type="range" id="fontSizeRange" min="30" max="100" step="1" value="16">
+        </div>
+        <br>
+        <br>
+        
+        <div id="boxTop">
+            Your Logo Display Here
+
+        </div>
+        <div id="boxData">
+            
+
+        </div>
+        <div id="boxBottom">
+            
+
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="colorInput">Enter Hex Color:</label>
+            <input type="text" id="colorInput" placeholder="#RRGGBB">
+        </div>
+        <div>
+            <label for="presetColors">Predefined Colors:</label>
+            <select id="presetColors">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+            </select>
+        </div>
+        <div>
+            <label for="fontStyleSelect">Select Font Style:</label>
+            <select id="fontStyleSelect">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Comic Sans MS">Comic Sans MS</option>
+            </select>
+        </div>
+
+    </div>
+    <!-- <script scr="js/logo.js"></script> -->
+    <script src="./logo1.js"></script>
+</body>
+</html>
